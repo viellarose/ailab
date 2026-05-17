@@ -1,0 +1,40 @@
+print("=== Underpainting Recommendation Expert System ===\n")
+
+print("Select Painting Theme:")
+print("1. Nature Landscape")
+print("2. Emotional Painting")
+print("3. Sunset Scene")
+print("4. Dark Dramatic Scene")
+print("5. Winter Scene")
+print("6. Fantasy Painting")
+
+choice = input("\nEnter your choice (1-6): ")
+
+print("\nRecommended Underpainting:\n")
+
+if choice == "1":
+    print("Underpainting Color: Yellow Ochre")
+    print("Reason: Good for nature tones.")
+
+elif choice == "2":
+    print("Underpainting Color: Blue")
+    print("Reason: Adds emotional depth.")
+
+elif choice == "3":
+    print("Underpainting Color: Burnt Sienna")
+    print("Reason: Supports warm sunset tones.")
+
+elif choice == "4":
+    print("Underpainting Color: Raw Umber")
+    print("Reason: Creates dark contrast.")
+
+elif choice == "5":
+    print("Underpainting Color: Grey-Blue")
+    print("Reason: Gives cold winter feel.")
+
+elif choice == "6":
+    print("Underpainting Color: Violet")
+    print("Reason: Adds fantasy effect.")
+
+else:
+    print("Invalid Choice! Please run the program again.")
